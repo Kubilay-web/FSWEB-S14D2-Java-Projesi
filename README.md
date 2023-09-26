@@ -10,18 +10,18 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
 Sınıf yazmaya doyduğunuz bir proje olması dileklerimle....
 
-### Lamp
-* Lamp isimli bir sınıf yazınız.
-* Lamp sınıfı için 3 tane ```instance variable``` tanımlamalıyız. ```style``` tipi LampType isminde bir enum olmalı. ```battery``` tipi boolean olmalı. ```globRating``` tipi int olmalı. 
-* Lamp sınıfının tüm değişkenleri `private` olmalı. Lamp sınıfı için 3 değişkeninde eklenebileceği tek bir ```constructor``` olmalı.
-* Lamp sınıfı için toplamda 4 metod yazmamız gerekiyor. ```turnOn``` herhangi bir değer dönmeyecek. Sadece 'Lamp is being turned on.' mesajının ekrana basacak.
+### modal.Lamp
+* modal.Lamp isimli bir sınıf yazınız.
+* modal.Lamp sınıfı için 3 tane ```instance variable``` tanımlamalıyız. ```style``` tipi LampType isminde bir enum olmalı. ```battery``` tipi boolean olmalı. ```globRating``` tipi int olmalı. 
+* modal.Lamp sınıfının tüm değişkenleri `private` olmalı. modal.Lamp sınıfı için 3 değişkeninde eklenebileceği tek bir ```constructor``` olmalı.
+* modal.Lamp sınıfı için toplamda 4 metod yazmamız gerekiyor. ```turnOn``` herhangi bir değer dönmeyecek. Sadece 'modal.Lamp is being turned on.' mesajının ekrana basacak.
 * ```getStyle()``` style değişkenin değerini dönmeli. ```isBattery()``` battery değişkeninin değerini dönmeli. ```getGlobalRating()``` globalRating değişkeninin değerini dönmeli.
 
-### Bed
-* Bed isminde bir sınıf yazınız.
-* Bed sınıfı için 5 tane ```instance variable``` tanımlamalıyız. style tipi String olmalı. ```pillows, height, sheets, quilt``` tipleri int olmalı. Hepsi private olmalı.
-* Bed sınıfı için bir constructor yazmalıyız.
-* Bed sınıfı için 5 metod yazacağız. ```make``` herhangi bir return değeri olmayacak. Sadece 'The bed is being made.' mesajını ekrana basacak.
+### modal.Bed
+* modal.Bed isminde bir sınıf yazınız.
+* modal.Bed sınıfı için 5 tane ```instance variable``` tanımlamalıyız. style tipi String olmalı. ```pillows, height, sheets, quilt``` tipleri int olmalı. Hepsi private olmalı.
+* modal.Bed sınıfı için bir constructor yazmalıyız.
+* modal.Bed sınıfı için 5 metod yazacağız. ```make``` herhangi bir return değeri olmayacak. Sadece 'The bed is being made.' mesajını ekrana basacak.
 * ```getPillows()``` pillows sayısını return etmeli. ```getHeight()``` height değerini return etmeli. ```getSheets()``` sheets sayısını return etmeli. ```getQuilts()``` quilts sayısını return etmeli.
 
 ### Wardrobe 
@@ -50,7 +50,7 @@ Sınıf yazmaya doyduğunuz bir proje olması dileklerimle....
 ### Bedroom 
 * Bedroom isimli bir sınıf oluşturunuz.
 * Bu sınıfın 10 tane ```instance variable``` değeri olmalı. ```name``` String tipinde. ```wall1 wall2 wall3 wall4``` Wall tipinde. ```ceiling``` Ceiling tipinde.
-  ```bed``` Bed tipinde. ```lamp``` Lamp tipinde. ```wardrobe``` Wardrobe tipinde. ```carpet``` Carpet tipinde.
+  ```bed``` modal.Bed tipinde. ```lamp``` modal.Lamp tipinde. ```wardrobe``` Wardrobe tipinde. ```carpet``` Carpet tipinde.
 * Sınıfımızın ```constructor``` metodu tek olmalı ve 10 değişkeni de almalı. 
 * getter metodlarını eklemelisiniz.
 
